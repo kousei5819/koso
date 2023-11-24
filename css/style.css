@@ -85,9 +85,10 @@ headerについて
 ーーーーーーーーーーーーーー */
 
 @media (max-width:900px) {
-    .header {
+    header {
         width: 100%;
-        height: 200px;
+        height: 100px;
+
     }
 
     body {
@@ -123,7 +124,7 @@ headerについて
     #overlay-button {
         position: absolute;
         right: 2em;
-        top: .4em;
+        top: 1.4em;
         padding: 28px 11px;
         z-index: 5;
         cursor: pointer;
@@ -200,11 +201,11 @@ headerについて
         z-index: 2;
         visibility: hidden;
         position: fixed;
+        top: 0;
     }
 
     #overlay ul {
         display: flex;
-        /* margin-top: 10rem; */
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -228,8 +229,12 @@ headerについて
         color: #56452d !important;
     }
 
+    .logo {
+        padding-top: 25px;
+    }
+
     .logo img {
-        width: 150px;
+        width: 220px;
         padding-left: 3rem;
     }
 
@@ -477,6 +482,7 @@ main-vについて
     font-weight: 600;
     font-size: 15px;
     margin-top: 30px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 
@@ -504,7 +510,7 @@ main-vについて
 .insta>h2 {
     margin-top: 3rem;
     padding-bottom: 1.5rem;
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #523e21;
 }
 
@@ -528,7 +534,7 @@ main-vについて
 .blog>h2 {
     margin-top: 7rem;
     padding-bottom: 1.5rem;
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #523e21;
 }
 
@@ -546,6 +552,7 @@ main-vについて
     font-weight: 600;
     font-size: 15px;
     margin-top: 30px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 /* ーーーーーーーーーー
@@ -770,12 +777,15 @@ aboutページ
     font-size: 1.3rem;
 }
 
-.cancel p {
+.cancel>p {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 30px;
     padding-bottom: 50px;
-    font-size: 0.7rem;
+    display: inline-block;
+    text-align: left;
+    font-size: .7rem;
+    line-height: 1.5rem;
 }
 
 /* ーーーーーーーーーー
