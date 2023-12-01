@@ -268,7 +268,19 @@ main-vについて
 }
 
 .type1 {
-    margin-right: .1.8px;
+    margin-right: .15rem;
+}
+
+.type2 {
+    margin-right: .15rem;
+}
+
+.type3 {
+    margin-right: .15rem;
+}
+
+.type4 {
+    margin-right: .15rem;
 }
 
 .lead img {
@@ -484,7 +496,7 @@ main-vについて
     border: none;
     border-radius: 5px;
     background-color: #523e21;
-    color: #EAD4C4;
+    color: #FFF5EE;
     font-weight: 600;
     font-size: 15px;
     margin-top: 30px;
@@ -554,11 +566,75 @@ main-vについて
     border: none;
     border-radius: 5px;
     background-color: #523e21;
-    color: #EAD4C4;
+    color: #FFF5EE;
     font-weight: 600;
     font-size: 15px;
     margin-top: 30px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/* ーーーーーーーーーーー
+インスタ02
+ーーーーーーーーーーー */
+
+
+
+.insta_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 75%;
+    margin: auto;
+}
+
+.insta_list li {
+    position: relative;
+    list-style-type: none;
+    width: calc((100% - 40px)/3);
+}
+
+@media screen and (max-width: 750px) {
+    .insta_list li {
+        width: calc((100% - 20px)/2);
+    }
+}
+
+.insta_list li::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.insta_list a {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.insta_list img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.insta_btn {
+    background-color: #000;
+    padding: .5em 1em;
+    width: fit-content;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .3s
+}
+
+.insta_btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.insta_btn:hover {
+    background-color: #999;
 }
 
 /* ーーーーーーーーーーーー
@@ -594,8 +670,8 @@ main-vについて
     padding: 1.3em 2em;
     border: none;
     border-radius: 5px;
-    background-color: #FFF5EE;
-    color: #523e21;
+    background-color: #523e21;
+    color: #FFF5EE;
     font-weight: 600;
     font-size: 1em;
     font-family: 'Kosugi Maru', sans-serif;
@@ -706,6 +782,7 @@ main-vについて
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #523e21;
     flex-wrap: wrap;
+    margin-bottom: 3rem;
 }
 
 .map {
@@ -882,6 +959,7 @@ aboutページ
 .text1 p {
     padding-top: 10px;
     font-size: .9rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .monthly1 p {
@@ -894,6 +972,7 @@ aboutページ
     display: inline-block;
     text-align: left;
     font-size: .6rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .cancel {
@@ -921,6 +1000,7 @@ aboutページ
     text-align: left;
     font-size: .7rem;
     line-height: 1.5rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 /* ーーーーーーーーーー
@@ -961,6 +1041,7 @@ aboutページ
     margin-bottom: 2em;
     font-size: .9rem;
     padding-top: 2em;
+    color: #8B7659;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
@@ -1010,6 +1091,7 @@ aboutページ
         width: 80%;
         font-size: 1.2rem;
         padding-top: 2em;
+        color: #8B7659;
         font-family: 'M PLUS Rounded 1c', sans-serif;
     }
 
@@ -1054,6 +1136,8 @@ aboutページ
     margin: 0 auto;
     width: 60%;
     padding-top: 50px;
+    color: #8B7659;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .last-text {
