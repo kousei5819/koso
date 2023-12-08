@@ -71,6 +71,10 @@ headerについて
         border-radius: 10px;
     }
 
+    .btn-booking {
+        margin-right: -2rem;
+    }
+
     #overlay-input {
         display: none;
     }
@@ -985,6 +989,7 @@ aboutページ
     text-align: center;
     padding-top: 40px;
     font-size: 1.3rem;
+    font-family: 'Kosugi Maru', sans-serif;
 }
 
 .cancel>p {
