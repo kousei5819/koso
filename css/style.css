@@ -71,10 +71,6 @@ headerについて
         border-radius: 10px;
     }
 
-    .btn-booking {
-        margin-right: -2rem;
-    }
-
     #overlay-input {
         display: none;
     }
