@@ -256,11 +256,15 @@ main-vについて
 
 .item-a {
     margin: 3rem;
+    width: 80%;
+    margin: auto;
 }
 
 .item-b {
-    /* justify-content: center; */
-    margin: 3rem;
+    padding-top: 3rem;
+    width: 80%;
+    height: auto;
+    margin: auto;
 }
 
 .type1 {
@@ -799,7 +803,7 @@ footerについて
 
 footer {
     background: #707070;
-    padding: 60px;
+    padding: 30px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
@@ -858,8 +862,9 @@ aboutページ
 ーーーーーーーーーー */
 
 .about {
-    margin-bottom: 10rem;
     text-align: center;
+    width: 70%;
+    margin: auto;
 }
 
 .about>h1 {
@@ -892,6 +897,7 @@ aboutページ
     text-align: left;
     width: 80%;
     padding-top: 30px;
+    margin-bottom: 10rem;
 }
 
 .text_koso h2 {
